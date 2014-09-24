@@ -56,7 +56,7 @@ public class IndexBean implements Serializable {
 	public void pollListener(){}
 	
 	public void performGC(ActionEvent event){
-		System.gc();
+		System.gc(); System.out.println("-------------------------------Done2");
 	}
 	
 	private void initMemoryChart(){
